@@ -43,7 +43,7 @@ int main(int argc , char* argv[])
   BRD_init();
   
   /*OPEN_WRITE_FILE_DATA*/
-  FP_OUT = fopen("W:/ML/MSO/DMA_UP_DOWN_CONVERTER/ODDUC.bin","w+b");
+  FP_OUT = fopen("W:/ML/MSO/DMA_UP_DOWN_CONVERTER/ODDUC.bin","w+b"); //_____прекрасный выбор функции!
   if(FP_OUT == 0){ puts("NOT OPEN FILE ODDUC.bin") ; return -1 ;}
 
   /*SETTINGS ADC 0 по SPI*/
